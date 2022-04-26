@@ -1,0 +1,39 @@
+﻿Location_ID,Site_Name,Address,City,Zip,County,Start Date,Status,Ash_Use,Estimated Volume of Coal Ash Applied (Tons),estCuYd,Latitude,Longitude,x,y
+CCB0003,Roxboro Power Plant,1700 Dunnaway Road,Semora,27343,Person,"11/1/2008, 12:00 AM",Closed,Structural Fill,"109,432.50","131,319.90",36.484451,-79.059001,-8800807.734,4367487.474
+CCB0011,Cherry Point Impact Berm,Rifle Range Road,Cherry Point,28533,Craven,"3/15/2009, 12:00 AM",Closed,Structural Fill,"13,333.33","16,000.00",34.915833,-76.871941,-8557345.328,4152449.059
+CCB0013,Boogle Bay Raceway,9446 Chickapee Dr.,Fayetteville,28311,Cumberland,"8/22/1990, 12:00 AM",Closed,Structural Fill,pre 1/4/1994,87347.4974,35.235241,-78.825801,-8774848.029,4195895.587
+CCB0014,Boogle Bay Phase II,9446 Chickapee Dr.,Fayetteville,28311,Cumberland,"5/20/1992, 12:00 AM",Closed,Structural Fill,pre 1/4/1994,87347.4974,35.236091,-78.829483,-8775257.907,4196011.433
+CCB0015,Crowell Constructors - Coal Ash Utilization,6030 Murchison Rd,Fayetteville,28311,Cumberland,,Closed,Structural Fill,"41,666.67","50,000.00",35.122501,-78.932071,-8786677.951,4180541.027
+CCB0016,Crowell Constructors - Coal Ash Utilization,6030 Murchison Rd,Fayetteville,28311,Cumberland,"3/17/1992, 12:00 AM",Closed,Structural Fill,pre 1/4/1994,87347.4974,35.122501,-78.932071,-8786677.951,4180541.027
+CCB0017,Crowell Constructors - Coal Ash Utilization,6030 Murchison Rd,Fayetteville,28311,Cumberland,"2/27/1998, 12:00 AM",Closed,Structural Fill,"11,250.00","13,500.00",35.122501,-78.932071,-8786677.951,4180541.027
+CCB0018,NorthSide Mine,10905 Ramsey St,Linden,28356,Cumberland,"6/25/2001, 12:00 AM",Closed,Structural Fill,"55,515.00","66,618.00",35.260501,-78.788181,-8770660.189,4199338.782
+CCB0019,Fountain Industrial Park,4001 College Rd,Battleboro,27809,Edgecombe,"6/15/1989, 12:00 AM",Closed,Structural Fill,166.67,200,35.998801,-77.768651,-8657166.629,4300456.393
+CCB0022,JS Turner Sawmill Structural Fill Project; Turner Lumber Drying Yard,Mulberry Street,Weldon,27890,Halifax,,Closed,Structural Fill,"754,365.00","905,238.00",36.421941,-77.604191,-8638859.026,4358836.207
+CCB0023,2nd Coal Ash Structural Fill; Eastern Pride (Family Dollar Store and adjoining property),210 E 2nd St.,Weldon,27890,Halifax,"4/27/2006, 12:00 AM",Closed,Structural Fill,"10,066.67","12,080.00",36.43146,-77.618473,-8640448.891,4360153.169
+CCB0024,Old Coca Cola Plant,Hwy 158 - Sycamore St,Weldon,27890,Halifax,"7/17/1997, 12:00 AM",Closed,Structural Fill,"128,333.33","154,000.00",36.42953,-77.59375,-8637696.739,4359886.139
+CCB0025,Weldon Fire Station,1050 Julian R Allsbrook Hwy - Julian Allsbrook HWY and Power Pl,Weldon,27890,Halifax,"1/18/1995, 12:00 AM",Closed,Structural Fill,"5,574.17","6,689.00",36.43146,-77.618473,-8640448.891,4360153.169
+CCB0026,Roanoke Rapids I-95/NC 125,"Exit 171, I-95 N Exit",Roanoke Rapids,,Halifax,"5/29/1995, 12:00 AM",Closed,Structural Fill,"5,833.33","7,000.00",36.4007,-77.6433,-8643212.62,4355898.078
+CCB0032,Circle K Farm I,200 Circle K Ln,Magnolia,28453,Duplin,"3/14/2013, 12:00 AM",Closed,Structural Fill,"31,666.67","38,000.00",34.92261,-77.9592,-8678378.447,4153369.119
+CCB0033,Circle K Farm II,200 Circle K Ln,Magnolia,28453,Duplin,"2/1/1994, 12:00 AM",Closed,Structural Fill,"25,000.00","30,000.00",34.92868,-77.96873,-8679439.321,4154193.26
+CCB0034,Circle K Farm I - Road Way,200 Circle K Ln,Magnolia,28453,Duplin,"4/19/1995, 12:00 AM",Closed,Structural Fill,"8,083.33","9,700.00",34.92868,-77.96873,-8679439.321,4154193.26
+CCB0035,Duke University West Campus,308 Research Drive,Durham,27708,Durham,"10/1/1995, 12:00 AM",Closed,Structural Fill,"3,125.00","3,750.00",36.002703,-78.943516,-8787952.003,4300993.307
+CCB0036,Imperial Tobacco-Rocky Mount,270 Gay Street,Rocky Mount,27804,Nash,,Closed,Structural Fill,187.5,225,35.947161,-77.795938,-8660204.204,4293353.241
+CCB0037,Tobaccoville Project,7201 Doral Dr.,Tobaccoville,27050,Forsyth,"6/7/2005, 12:00 AM",Closed,Structural Fill,"146,666.67","176,000.00",36.242736,-80.363959,-8946074.994,4334073.081
+CCB0056,Brandywine Pond Industrial Park,NC Highway 4,Rocky Mount,27809,Nash,"8/21/1998, 12:00 AM",Closed,Structural Fill,"60,000.00","72,000.00",36.046571,-77.769491,-8657260.137,4307031.363
+CCB0057,Swift Creek,U.S. Hwy 301,Whitakers,27891,Nash,"5/4/2001, 12:00 AM",Closed,Structural Fill,"83,750.00","100,500.00",36.081941,-77.746291,-8654677.525,4311902.193
+CCB0058a,Nash; Randy Vann Property,"401, 411, 415, 421, and 431 S Wesleyan Blvd.",Rocky Mount,27803,Nash,"11/11/1991, 12:00 AM",Closed,Structural Fill,pre 1/4/1994,87347.4974,35.947351,-77.829541,-8663944.873,4293379.367
+CCB0058b,Home Gallery Site,443 S Wesleyan Blvd.,Rocky Mount,27803,Nash,,Closed,Structural Fill,pre 1/4/1994,87347.4974,35.946384,-77.828402,-8663818.08,4293246.399
+CCB0059,"Carolina Eagle Distributing, Inc.",3231 N Wesleyan Blvd.,Rocky Mount,27804,Nash,"7/17/1990, 12:00 AM",Closed,Structural Fill,"9,375.00","11,250.00",36.013261,-77.769801,-8657294.646,4302446.219
+CCB0060,"EB Grain Co., Inc.",7101 N US 301,Rocky Mount,27809,Nash,"1/10/1992, 12:00 AM",Closed,Structural Fill,pre 1/4/1994,87347.4974,36.065491,-77.747451,-8654806.656,4309636.579
+CCB0061,EB Grain Co. Expansion,7101 N US 301,Rocky Mount,27809,Nash,"11/22/1991, 12:00 AM",Closed,Structural Fill,"15,625.00","18,750.00",36.066461,-77.747411,-8654802.203,4309770.161
+CCB0062,Turn Key Contractors Project,2950 Business Park Dr.,Rocky Mount,27804,Nash,"1/6/1992, 12:00 AM",Closed,Structural Fill,"25,625.00","30,750.00",36.009021,-77.778601,-8658274.258,4301862.719
+CCB0063,Winstead & Sunset Aves. (Rocky Mount); Englewood Baptist Church,1350 S Winstead Ave,Rocky Mount,27803,Nash,"7/11/1996, 12:00 AM",Closed,Structural Fill,"6,666.67","8,000.00",35.946401,-77.849421,-8666157.904,4293248.736
+CCB0064,Arthur's Creek CCB Structural Fill Site,"South side of NC Highway 46, east of S.R. 1235",Garysburg,27831,Northampton,"9/23/1994, 12:00 AM",Closed,Structural Fill,"340,510.00","408,612.00",36.455511,-77.597961,-8638165.505,4363481.365
+CCB0065,Roxboro Power Plant;   expansion of coal pile,1700 Dunnaway Road,Semora,27343,Person,,Closed,Structural Fill,"20,833.33","25,000.00",36.486731,-79.071941,-8802248.208,4367803.154
+CCB0069,Duke Belews Creek Steam Station - Sand Filter System;,3195 Pine Hall Rd,Belews Creek,27009,Stokes,"5/6/1996, 12:00 AM",Closed,Structural Fill,395.83,475,36.27908,-80.0589,-8912115.981,4339090.611
+CCB0071,"Crystal Ford Mercury (Plymouth, NC)",454 US HWY 64 W,Plymouth,27962,Washington,"4/30/2003, 12:00 AM",Closed,Structural Fill,"8,083.33","9,700.00",35.854422,-76.751829,-8543974.522,4280608.509
+CCB0074,"Hwy 301 & River Road/BB Pierce/Basnight Building Supply, Weldon",River Road / Lowe LD,Weldon,27890,Halifax,"9/1/2009, 12:00 AM",Closed,Structural Fill,"203,206.67","243,848.00",36.423967,-77.592101,-8637513.173,4359116.492
+CCB0076,Roxboro Power Plant - Phase 6 Expansion of LF ,1700 Dunnaway Road,Semora,27343,Person,,Closed,Structural Fill,"604,166.67","725,000.00",36.480044,-78.059856,-8689583.421,4366877.325
+CCB0077,Winston-Salem 2000 Lowery St;,2000 Lowery Street,Winston-Salem,27101,Forsyth,"8/31/2011, 12:00 AM",Closed,Structural Fill,"33,333.33","40,000.00",36.092861,-80.217786,-8929803.09,4313406.437
+CCB0079,"Fountain Industrial Park (Lot 9, 10, 11)",4001 College Rd,Battleboro,27809,Edgecombe,,Closed,Structural Fill,Not Specified,87347.4974,36.001,-77.76248,-8656479.676,4300758.971
+CCB0080,Cherry Point MCAS - Waste Water Treatment Plant,4376 Roosevelt Blvd.,Cherry Point,,Craven,,Closed,Structural Fill,"4,166.67","5,000.00",34.913116,-76.90689,-8561235.833,4152080.215

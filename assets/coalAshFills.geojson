@@ -1,0 +1,955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0003",
+        "Site_Name": "Roxboro Power Plant",
+        "Address": "1700 Dunnaway Road",
+        "City": "Semora",
+        "Zip": 27343,
+        "County": "Person",
+        "Start Date": "11/1/2008, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "109,432.50",
+        "estCuYd": "131,319.90",
+        "x": -8800807.734,
+        "y": 4367487.474
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.059001,
+          36.484451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0011",
+        "Site_Name": "Cherry Point Impact Berm",
+        "Address": "Rifle Range Road",
+        "City": "Cherry Point",
+        "Zip": 28533,
+        "County": "Craven",
+        "Start Date": "3/15/2009, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "13,333.33",
+        "estCuYd": "16,000.00",
+        "x": -8557345.328,
+        "y": 4152449.059
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.871941,
+          34.915833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0013",
+        "Site_Name": "Boogle Bay Raceway",
+        "Address": "9446 Chickapee Dr.",
+        "City": "Fayetteville",
+        "Zip": 28311,
+        "County": "Cumberland",
+        "Start Date": "8/22/1990, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8774848.029,
+        "y": 4195895.587
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.825801,
+          35.235241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0014",
+        "Site_Name": "Boogle Bay Phase II",
+        "Address": "9446 Chickapee Dr.",
+        "City": "Fayetteville",
+        "Zip": 28311,
+        "County": "Cumberland",
+        "Start Date": "5/20/1992, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8775257.907,
+        "y": 4196011.433
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.829483,
+          35.236091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0015",
+        "Site_Name": "Crowell Constructors - Coal Ash Utilization",
+        "Address": "6030 Murchison Rd",
+        "City": "Fayetteville",
+        "Zip": 28311,
+        "County": "Cumberland",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "41,666.67",
+        "estCuYd": "50,000.00",
+        "x": -8786677.951,
+        "y": 4180541.027
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.932071,
+          35.122501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0016",
+        "Site_Name": "Crowell Constructors - Coal Ash Utilization",
+        "Address": "6030 Murchison Rd",
+        "City": "Fayetteville",
+        "Zip": 28311,
+        "County": "Cumberland",
+        "Start Date": "3/17/1992, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8786677.951,
+        "y": 4180541.027
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.932071,
+          35.122501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0017",
+        "Site_Name": "Crowell Constructors - Coal Ash Utilization",
+        "Address": "6030 Murchison Rd",
+        "City": "Fayetteville",
+        "Zip": 28311,
+        "County": "Cumberland",
+        "Start Date": "2/27/1998, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "11,250.00",
+        "estCuYd": "13,500.00",
+        "x": -8786677.951,
+        "y": 4180541.027
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.932071,
+          35.122501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0018",
+        "Site_Name": "NorthSide Mine",
+        "Address": "10905 Ramsey St",
+        "City": "Linden",
+        "Zip": 28356,
+        "County": "Cumberland",
+        "Start Date": "6/25/2001, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "55,515.00",
+        "estCuYd": "66,618.00",
+        "x": -8770660.189,
+        "y": 4199338.782
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.788181,
+          35.260501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0019",
+        "Site_Name": "Fountain Industrial Park",
+        "Address": "4001 College Rd",
+        "City": "Battleboro",
+        "Zip": 27809,
+        "County": "Edgecombe",
+        "Start Date": "6/15/1989, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": 166.67,
+        "estCuYd": 200,
+        "x": -8657166.629,
+        "y": 4300456.393
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.768651,
+          35.998801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0022",
+        "Site_Name": "JS Turner Sawmill Structural Fill Project; Turner Lumber Drying Yard",
+        "Address": "Mulberry Street",
+        "City": "Weldon",
+        "Zip": 27890,
+        "County": "Halifax",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "754,365.00",
+        "estCuYd": "905,238.00",
+        "x": -8638859.026,
+        "y": 4358836.207
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.604191,
+          36.421941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0023",
+        "Site_Name": "2nd Coal Ash Structural Fill; Eastern Pride (Family Dollar Store and adjoining property)",
+        "Address": "210 E 2nd St.",
+        "City": "Weldon",
+        "Zip": 27890,
+        "County": "Halifax",
+        "Start Date": "4/27/2006, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "10,066.67",
+        "estCuYd": "12,080.00",
+        "x": -8640448.891,
+        "y": 4360153.169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.618473,
+          36.43146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0024",
+        "Site_Name": "Old Coca Cola Plant",
+        "Address": "Hwy 158 - Sycamore St",
+        "City": "Weldon",
+        "Zip": 27890,
+        "County": "Halifax",
+        "Start Date": "7/17/1997, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "128,333.33",
+        "estCuYd": "154,000.00",
+        "x": -8637696.739,
+        "y": 4359886.139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.59375,
+          36.42953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0025",
+        "Site_Name": "Weldon Fire Station",
+        "Address": "1050 Julian R Allsbrook Hwy - Julian Allsbrook HWY and Power Pl",
+        "City": "Weldon",
+        "Zip": 27890,
+        "County": "Halifax",
+        "Start Date": "1/18/1995, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "5,574.17",
+        "estCuYd": "6,689.00",
+        "x": -8640448.891,
+        "y": 4360153.169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.618473,
+          36.43146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0026",
+        "Site_Name": "Roanoke Rapids I-95/NC 125",
+        "Address": "Exit 171, I-95 N Exit",
+        "City": "Roanoke Rapids",
+        "Zip": "",
+        "County": "Halifax",
+        "Start Date": "5/29/1995, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "5,833.33",
+        "estCuYd": "7,000.00",
+        "x": -8643212.62,
+        "y": 4355898.078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6433,
+          36.4007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0032",
+        "Site_Name": "Circle K Farm I",
+        "Address": "200 Circle K Ln",
+        "City": "Magnolia",
+        "Zip": 28453,
+        "County": "Duplin",
+        "Start Date": "3/14/2013, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "31,666.67",
+        "estCuYd": "38,000.00",
+        "x": -8678378.447,
+        "y": 4153369.119
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.9592,
+          34.92261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0033",
+        "Site_Name": "Circle K Farm II",
+        "Address": "200 Circle K Ln",
+        "City": "Magnolia",
+        "Zip": 28453,
+        "County": "Duplin",
+        "Start Date": "2/1/1994, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "25,000.00",
+        "estCuYd": "30,000.00",
+        "x": -8679439.321,
+        "y": 4154193.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.96873,
+          34.92868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0034",
+        "Site_Name": "Circle K Farm I - Road Way",
+        "Address": "200 Circle K Ln",
+        "City": "Magnolia",
+        "Zip": 28453,
+        "County": "Duplin",
+        "Start Date": "4/19/1995, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "8,083.33",
+        "estCuYd": "9,700.00",
+        "x": -8679439.321,
+        "y": 4154193.26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.96873,
+          34.92868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0035",
+        "Site_Name": "Duke University West Campus",
+        "Address": "308 Research Drive",
+        "City": "Durham",
+        "Zip": 27708,
+        "County": "Durham",
+        "Start Date": "10/1/1995, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "3,125.00",
+        "estCuYd": "3,750.00",
+        "x": -8787952.003,
+        "y": 4300993.307
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.943516,
+          36.002703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0036",
+        "Site_Name": "Imperial Tobacco-Rocky Mount",
+        "Address": "270 Gay Street",
+        "City": "Rocky Mount",
+        "Zip": 27804,
+        "County": "Nash",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": 187.5,
+        "estCuYd": 225,
+        "x": -8660204.204,
+        "y": 4293353.241
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.795938,
+          35.947161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0037",
+        "Site_Name": "Tobaccoville Project",
+        "Address": "7201 Doral Dr.",
+        "City": "Tobaccoville",
+        "Zip": 27050,
+        "County": "Forsyth",
+        "Start Date": "6/7/2005, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "146,666.67",
+        "estCuYd": "176,000.00",
+        "x": -8946074.994,
+        "y": 4334073.081
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.363959,
+          36.242736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0056",
+        "Site_Name": "Brandywine Pond Industrial Park",
+        "Address": "NC Highway 4",
+        "City": "Rocky Mount",
+        "Zip": 27809,
+        "County": "Nash",
+        "Start Date": "8/21/1998, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "60,000.00",
+        "estCuYd": "72,000.00",
+        "x": -8657260.137,
+        "y": 4307031.363
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.769491,
+          36.046571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0057",
+        "Site_Name": "Swift Creek",
+        "Address": "U.S. Hwy 301",
+        "City": "Whitakers",
+        "Zip": 27891,
+        "County": "Nash",
+        "Start Date": "5/4/2001, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "83,750.00",
+        "estCuYd": "100,500.00",
+        "x": -8654677.525,
+        "y": 4311902.193
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.746291,
+          36.081941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0058a",
+        "Site_Name": "Nash; Randy Vann Property",
+        "Address": "401, 411, 415, 421, and 431 S Wesleyan Blvd.",
+        "City": "Rocky Mount",
+        "Zip": 27803,
+        "County": "Nash",
+        "Start Date": "11/11/1991, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8663944.873,
+        "y": 4293379.367
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.829541,
+          35.947351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0058b",
+        "Site_Name": "Home Gallery Site",
+        "Address": "443 S Wesleyan Blvd.",
+        "City": "Rocky Mount",
+        "Zip": 27803,
+        "County": "Nash",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8663818.08,
+        "y": 4293246.399
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.828402,
+          35.946384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0059",
+        "Site_Name": "Carolina Eagle Distributing, Inc.",
+        "Address": "3231 N Wesleyan Blvd.",
+        "City": "Rocky Mount",
+        "Zip": 27804,
+        "County": "Nash",
+        "Start Date": "7/17/1990, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "9,375.00",
+        "estCuYd": "11,250.00",
+        "x": -8657294.646,
+        "y": 4302446.219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.769801,
+          36.013261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0060",
+        "Site_Name": "EB Grain Co., Inc.",
+        "Address": "7101 N US 301",
+        "City": "Rocky Mount",
+        "Zip": 27809,
+        "County": "Nash",
+        "Start Date": "1/10/1992, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "pre 1/4/1994",
+        "estCuYd": 87347.4974,
+        "x": -8654806.656,
+        "y": 4309636.579
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.747451,
+          36.065491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0061",
+        "Site_Name": "EB Grain Co. Expansion",
+        "Address": "7101 N US 301",
+        "City": "Rocky Mount",
+        "Zip": 27809,
+        "County": "Nash",
+        "Start Date": "11/22/1991, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "15,625.00",
+        "estCuYd": "18,750.00",
+        "x": -8654802.203,
+        "y": 4309770.161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.747411,
+          36.066461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0062",
+        "Site_Name": "Turn Key Contractors Project",
+        "Address": "2950 Business Park Dr.",
+        "City": "Rocky Mount",
+        "Zip": 27804,
+        "County": "Nash",
+        "Start Date": "1/6/1992, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "25,625.00",
+        "estCuYd": "30,750.00",
+        "x": -8658274.258,
+        "y": 4301862.719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.778601,
+          36.009021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0063",
+        "Site_Name": "Winstead & Sunset Aves. (Rocky Mount); Englewood Baptist Church",
+        "Address": "1350 S Winstead Ave",
+        "City": "Rocky Mount",
+        "Zip": 27803,
+        "County": "Nash",
+        "Start Date": "7/11/1996, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "6,666.67",
+        "estCuYd": "8,000.00",
+        "x": -8666157.904,
+        "y": 4293248.736
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.849421,
+          35.946401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0064",
+        "Site_Name": "Arthur's Creek CCB Structural Fill Site",
+        "Address": "South side of NC Highway 46, east of S.R. 1235",
+        "City": "Garysburg",
+        "Zip": 27831,
+        "County": "Northampton",
+        "Start Date": "9/23/1994, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "340,510.00",
+        "estCuYd": "408,612.00",
+        "x": -8638165.505,
+        "y": 4363481.365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.597961,
+          36.455511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0065",
+        "Site_Name": "Roxboro Power Plant;   expansion of coal pile",
+        "Address": "1700 Dunnaway Road",
+        "City": "Semora",
+        "Zip": 27343,
+        "County": "Person",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "20,833.33",
+        "estCuYd": "25,000.00",
+        "x": -8802248.208,
+        "y": 4367803.154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.071941,
+          36.486731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0069",
+        "Site_Name": "Duke Belews Creek Steam Station - Sand Filter System;",
+        "Address": "3195 Pine Hall Rd",
+        "City": "Belews Creek",
+        "Zip": 27009,
+        "County": "Stokes",
+        "Start Date": "5/6/1996, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": 395.83,
+        "estCuYd": 475,
+        "x": -8912115.981,
+        "y": 4339090.611
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0589,
+          36.27908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0071",
+        "Site_Name": "Crystal Ford Mercury (Plymouth, NC)",
+        "Address": "454 US HWY 64 W",
+        "City": "Plymouth",
+        "Zip": 27962,
+        "County": "Washington",
+        "Start Date": "4/30/2003, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "8,083.33",
+        "estCuYd": "9,700.00",
+        "x": -8543974.522,
+        "y": 4280608.509
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.751829,
+          35.854422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0074",
+        "Site_Name": "Hwy 301 & River Road/BB Pierce/Basnight Building Supply, Weldon",
+        "Address": "River Road / Lowe LD",
+        "City": "Weldon",
+        "Zip": 27890,
+        "County": "Halifax",
+        "Start Date": "9/1/2009, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "203,206.67",
+        "estCuYd": "243,848.00",
+        "x": -8637513.173,
+        "y": 4359116.492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.592101,
+          36.423967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0076",
+        "Site_Name": "Roxboro Power Plant - Phase 6 Expansion of LF ",
+        "Address": "1700 Dunnaway Road",
+        "City": "Semora",
+        "Zip": 27343,
+        "County": "Person",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "604,166.67",
+        "estCuYd": "725,000.00",
+        "x": -8689583.421,
+        "y": 4366877.325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.059856,
+          36.480044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0077",
+        "Site_Name": "Winston-Salem 2000 Lowery St;",
+        "Address": "2000 Lowery Street",
+        "City": "Winston-Salem",
+        "Zip": 27101,
+        "County": "Forsyth",
+        "Start Date": "8/31/2011, 12:00 AM",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "33,333.33",
+        "estCuYd": "40,000.00",
+        "x": -8929803.09,
+        "y": 4313406.437
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.217786,
+          36.092861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0079",
+        "Site_Name": "Fountain Industrial Park (Lot 9, 10, 11)",
+        "Address": "4001 College Rd",
+        "City": "Battleboro",
+        "Zip": 27809,
+        "County": "Edgecombe",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "Not Specified",
+        "estCuYd": 87347.4974,
+        "x": -8656479.676,
+        "y": 4300758.971
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.76248,
+          36.001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location_ID": "CCB0080",
+        "Site_Name": "Cherry Point MCAS - Waste Water Treatment Plant",
+        "Address": "4376 Roosevelt Blvd.",
+        "City": "Cherry Point",
+        "Zip": "",
+        "County": "Craven",
+        "Start Date": "",
+        "Status": "Closed",
+        "Ash_Use": "Structural Fill",
+        "Estimated Volume of Coal Ash Applied (Tons)": "4,166.67",
+        "estCuYd": "5,000.00",
+        "x": -8561235.833,
+        "y": 4152080.215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.90689,
+          34.913116
+        ]
+      }
+    }
+  ]
+}
