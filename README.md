@@ -1,6 +1,6 @@
 
 ------
-## North Carolina Site Locator Tool
+### NC Coal Ash Structural Fill Site Locator
 
 ------
 
