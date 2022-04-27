@@ -20,3 +20,6 @@
 - Each site features a popup with a brief information including address, date, name, county, and metrics for coal ash used.
 
 </p>
+
+----
+*River Pyle 2022*
