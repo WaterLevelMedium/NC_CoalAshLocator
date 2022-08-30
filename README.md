@@ -24,4 +24,4 @@
 ----
 *River Pyle 2022*
 
-(Site)[https://waterlevelmedium.github.io/NC_CoalAshLocator/]
+[Site](https://waterlevelmedium.github.io/NC_CoalAshLocator/)
