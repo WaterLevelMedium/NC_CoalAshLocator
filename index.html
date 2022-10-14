@@ -34,6 +34,7 @@
             position:absolute;
             width:100%;
             height: 100%;
+            z-index: 100;
            }
           #i1 {
             font-size: .67em;
@@ -48,38 +49,31 @@
 
       <div id='map'></div>
 
-      <h1> NC Coal Ash Fill Sites <br/> <div id='i1'><i>in Cubic Yards<i/></div> </h1>
+      <div id='pageTitle'><h1> NC Coal Ash Fill Sites <br/> <div id='i1'><i>in Cubic Yards<i/></div> </h1></div>
 
       <!-- DEPRECRIATED <script id='jQuery' src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
 
                     -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
-      <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+      <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
-
-
-
-
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>      <!-- updated 10/13/2022 -->
 
       <script type="text/javascript">
-        //init map
-        var map = L.map('map' , {
 
+        var map = L.map('map' , {
           center: [34.969619, -79.608586], // 35 centered up fixed h/w // 78-74 moves left to visual data
           zoom: 6.75,
-
         });
+        // basemap
+        var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+          attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+        }).addTo(map);
 
-        var Stamen_TonerLite = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
 
-              attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-              ext: 'png'
-
-          }).addTo(map);
-          // find custombasemap in morning, gn bro
+          //ncCountyShape.style.zIndex = '200';
+          // colors: https://htmlcolorcodes.com/color-picker/
 
 
              // [131319.9, 16000.0, 'NODATA', 'NODATA', 50000.0, 'NODATA', 13500.0, 66618.0, 200.0, 905238.0, 12080.0, 154000.0, 6689.0, 7000.0, 38000.0, 30000.0, 9700.0, 3750.0, 225.0, 176000.0, 72000.0, 100500.0, 'NODATA', 'NODATA', 11250.0, 'NODATA', 18750.0, 30750.0, 8000.0, 408612.0, 25000.0, 475.0, 9700.0, 243848.0, 725000.0, 40000.0, 'NODATA', 5000.0]
@@ -99,20 +93,9 @@
                 return val
               }
 
-              // NcDot County Boundary ShapeFile
-              //Downloaded as GeoJson from <a href='https://www.nconemap.gov/datasets/NCDOT::ncdot-county-boundaries/explore?location=35.103575%2C-79.919050%2C7.06'>NcBoundaries</a>
-              ncCountyShape = L.geoJson.ajax('assets/NCDOT_County_Boundaries.geojson',{
-                      attribution: 'Map: River Pyle,</br> Data: <a href="https:www.nconemap.gov/datasets/NCDOT::ncdot-county-boundaries/explore?location=35.103575%2C-79.919050%2C7.06">NCDOT County Boundaries</a>',
-                      weight: .5,
-                      opacity: .6,
-                      color: '#7E5BBC',
 
-                    }).addTo(map);
-
-              // colors: https://htmlcolorcodes.com/color-picker/
-
-              var coalAshSites = L.geoJson.ajax(['assets/coalAshFills.geojson' ],{
-              onEachFeature: popUp,
+              var coalAshSites = L.geoJson.ajax('assets/coalAshFills.geojson',{
+              //onEachFeature: popUp,
               attribution: 'Data: <a href="https://ncdenr.maps.arcgis.com/apps/webappviewer/index.html?id=7dd59be2750b40bebebfa49fc383f688">NCDEQ Waste Management Site Locator Tool</a>',
               pointToLayer: function ( feature , x){
                 return L.circleMarker(x, {
@@ -122,8 +105,10 @@
                   fillColor: '#5BBCAF',
                   fillOpacity: 1,
                   radius: appropriateScaling(feature.properties.estCuYd),
+                })}}).addTo(map);
 
-                })}}).addTo(map).on({
+
+                coalAshSites.on({
                   mouseover: function(e){
 
                     this.setStyle({color:'#BB352A'})
@@ -136,7 +121,10 @@
                   }
                 });
 
-                coalAshSites.on('click',popUp)
+                coalAshSites.on('click', popUp);
+
+
+                // site information popup
                 function popUp(f,l){
                       var out = [];
                       if (f.properties){
@@ -145,7 +133,19 @@
                           }
                           l.bindPopup(out.join("<br />"));
                       }
-                  }
+                  };
+                  
+                  // county boundary outlines
+                  var ncCountyShape = new L.GeoJSON.AJAX('./assets/NCDOT_County_Boundaries.geojson',{
+                          attribution: 'Map: River Pyle,</br> Data: <a href="https:www.nconemap.gov/datasets/NCDOT::ncdot-county-boundaries/explore?location=35.103575%2C-79.919050%2C7.06">NCDOT County Boundaries</a>',
+                          weight: 1,
+                          opacity: 1,
+                          color: '#7E5BBC',
+                          fillColor: '#7E5BBC',
+                          fillOpacity: .3,
+
+                        }).addTo(map);
+
 
       </script>
     </body>
