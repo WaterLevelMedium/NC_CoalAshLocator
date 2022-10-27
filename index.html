@@ -50,7 +50,7 @@
 
       <div id='map'></div>
 
-      <div id='pageTitle'><h1> NC Coal Ash Fill Sites <br/> <div id='i1'><i>Scaled by Cubic Yards<i/></div> </h1></div>
+      <div id='pageTitle'><h1> NC Coal Ash Fill Sites <br/> <div id='i1'><i>Scaled Proportionally by Cubic Yards<i/></div> </h1></div>
 
       <!-- DEPRECRIATED <script id='jQuery' src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
@@ -62,7 +62,7 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>      <!-- updated 10/13/2022 -->
 
       <script type="text/javascript">
-      // colors: https://htmlcolorcodes.com/color-picker/
+      // nice colors: https://htmlcolorcodes.com/color-picker/
 
 
         //start map init
@@ -139,7 +139,7 @@
          coalAshSites.on({
            mouseover: function(e){
 
-             sleep(550).then(() => {this.setStyle({color:'#020906 '});}); //#BB352A
+             sleep(350).then(() => {this.setStyle({color:'#020906 '});}); //#BB352A
              map.setZoom(map.getZoom() + .2);
              //this.refresh()
              // clicking on danville site refreshes page for some reason?
@@ -148,14 +148,14 @@
 
            mouseout: function(e){
              //this.refresh();
-             sleep(550).then(() => {this.setStyle({color:'#8b8b8b '});});
+             sleep(1500).then(() => {this.setStyle({color:'#8b8b8b '});});
              map.setZoom(map.getZoom() - .2);
 
            }, // page was immediately refreshing and closing popup 10202022
 
+           // only works when window size is too small
            click: function(e){
              map.panTo([e.lat,e.latLng.lng + 50]);
-
              sleep(350).then(() => {});
 
            },

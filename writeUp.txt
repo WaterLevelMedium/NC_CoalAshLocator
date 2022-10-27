@@ -12,13 +12,13 @@ based solely on location in the script. The working iteration calls the
 geoJson variable as well as attached events as one, versus assigning variables
 to CSS properties, events, etc. Lastly, the case-sensitivity of geojson in the
 Leaflet library has bugs, e.g., GeoJson.AJAX is non-functional, geoJson.AJAX
-is functional. 
+is functional.
 	A time consuming portion of this lab also included parsing the geojson
 file to develop an average volume of coal ash to base the scaling formula
 upon, and was challenging to the different data types, as NoData values had to
 be mannually changed to the computed average, and the python script
 'toGeojson.py' in the scripts folder of the repo contains the aforementioned
-parsing method. 
+parsing method.
 	Lastly, the variance between allowed js functions (represented as errors) between editions of
 chrome, atom's 'atom-live-server', 'html-preview', and 'scripts' packages
 needed a significant amount of debugging. The issues found were: running
@@ -27,9 +27,31 @@ needed a significant amount of debugging. The issues found were: running
 allows relative pathnames, however does not allow <./> or <~/> formats to call
 data in site directories. Html-preview proved to be the easiest to debug and
 use, however was V-RAM and RAM intensive as it refreshes once a change is
-made. 
+made.
 	Overall, the debugging and design process was very helpful to build
 skills within the aforementioned languages, as well as tracking changes and
 maitaining a clean directory structure with git, and was an enjoyable process.
 The scripts written to parse geojson data as well as the general site format
-will be useful to build upon with new variations, customizations, and data.  
+will be useful to build upon with new variations, customizations, and data.
+
+Appended 10/27/2022 -
+
+	Revisiting this webmap allowed me to clean up errors in the behavior of the js/leaflet
+interactions when displaying the NC County Shapefile and the proportional circles.
+The primary challenge was calling the GeoJson Ajax object through leaflet, as changes in case, e.g., L.GeoJSON.AJAX,
+L.Geojson.Ajax(), also changed behavior. Although mouseover circles would change state appropriately, however, this event
+would not fire until a specific coal ash fill site was hovered upon. I utilized a JS sleep function to delay the
+moment the state change (the border of the circle would change color to indicate the site is highlighted) would fire,
+as well as used the leaflet 'Pane' feature to assign zIndex to leaflet layers. Although the css style zIndex works to display
+text boxes and div containers overlain the leaflet tile, assigning zIndex to leaflet layers requires a workaround.
+Although the bringToFront() function serves the purpose of displaying the coal ash site layer on top when the page refreshes,
+however, fewer errors were produced by assigning each layer to a respective 'pane' with the map.createPane function, referencing
+that pane when the variable is created, and then assigning sequential zIndexes at the end of the script to maintain a
+consistent hierarchy of layers. Less critical changes included reverting to neutral colors for the sites (changed from
+blue/red to black/grey) and decreasing opacity in the county shapefile overlay. Additionally, the USGS basemap was replaced
+with an ESRI aerial imagery basemap with a higher zoom range. The solution to the case sensitive L.GeoJSON.Ajax
+object was calling variables as: var FooBar = new L.GeoJSON.AJAX('/pathname/path.geojson',{}). The syntax that produced
+errors was: var FooBar = L.geoJson.ajax(['pathname/path.geojson'],{});. The working form of the geojson.ajax object also
+required the googleapis jquery version of leaflet ajax in addition to the cloudflare leaflet ajax. Lastly, a direct Link
+to the Git Pages Environment was included at the top of the ReadMe for the NC_CoalAshLocator repository allows the user to
+quickly access the site. 
